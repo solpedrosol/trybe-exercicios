@@ -1,0 +1,12 @@
+div:hover {
+    border: 5px solid black;
+}
+div:nth-child(5) {
+    font-size: xx-large;
+}
+div:nth-child(odd){
+    font-style: italic;
+}
+div{
+    color: green;
+}
