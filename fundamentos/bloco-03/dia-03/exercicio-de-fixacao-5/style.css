@@ -1,0 +1,56 @@
+ol {
+    background-color: yellow;
+}
+
+ol li:nth-of-type(odd){
+    text-transform: uppercase;
+}
+
+ol li:nth-of-type(even){
+    color: green;
+}
+
+.header {
+    color: red;
+}
+
+.header em {
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+li {
+    font-size: 20px;
+}
+
+li em {
+    font-weight: bold;
+}
+
+#programacao ul li:not(:nth-of-type(n+4)){
+    color: blue;
+}
+
+.java {
+    background-color: pink;
+}
+
+#trybe:hover {
+    font-weight: bold;
+    color: green;
+}
+#stack:hover {
+    font-weight: bold;
+    color: orange;
+}
+#mdn:hover {
+    font-weight: bold;
+}
+#devdocs:hover {
+    font-weight: bold;
+    color: yellow;
+}
+#w3s:hover {
+    font-weight: bold;
+    color: green;
+}
